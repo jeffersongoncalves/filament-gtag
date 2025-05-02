@@ -1,0 +1,55 @@
+{
+    "name": "jeffersongoncalves/filament-gtag",
+    "description": "The Filament package integrates Google Analytics (Gtag) into your Laravel Blade templates, enabling seamless tracking of website visits and user interactions. It simplifies the process of adding analytics to your application, providing valuable insights into your audience and website performance with minimal setup.",
+    "keywords": [
+        "jeffersongoncalves",
+        "laravel",
+        "filament-gtag"
+    ],
+    "homepage": "https://github.com/jeffersongoncalves/filament-gtag",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jefferson Gonçalves",
+            "email": "gerson.simao.92@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2|^8.3",
+        "filament/filament": "^3.0",
+        "jeffersongoncalves/laravel-gtag": "^1.0",
+        "laravel/framework": "^11.0|^12.0",
+        "spatie/laravel-package-tools": "^1.14.0"
+    },
+    "require-dev": {
+        "larastan/larastan": "^3.0",
+        "orchestra/testbench": "^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JeffersonGoncalves\\Filament\\Gtag\\": "src"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JeffersonGoncalves\\Filament\\Gtag\\GtagServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
