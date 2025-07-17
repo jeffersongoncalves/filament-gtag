@@ -12,6 +12,8 @@
 
 The Filament package integrates Google Analytics (Gtag) into your Laravel Blade templates, enabling seamless tracking of website visits and user interactions. It simplifies the process of adding analytics to your application, providing valuable insights into your audience and website performance with minimal setup.
 
+This plugin is built on top of the [laravel-gtag](https://github.com/jeffersongoncalves/laravel-gtag) package, which provides the core Google Analytics integration for Laravel applications.
+
 ## Installation
 
 You can install the package via composer:
