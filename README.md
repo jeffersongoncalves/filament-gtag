@@ -1,13 +1,13 @@
 <div class="filament-hidden">
 
-![Filament Gtag](https://raw.githubusercontent.com/jeffersongoncalves/filament-gtag/master/art/jeffersongoncalves-filament-gtag.png)
+![Filament Gtag](https://raw.githubusercontent.com/jeffersongoncalves/filament-gtag/3.x/art/jeffersongoncalves-filament-gtag.png)
 
 </div>
 
 # Filament Gtag
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-gtag.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-gtag)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-gtag/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-gtag/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amaster)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-gtag/fix-php-code-style-issues.yml?branch=3.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-gtag/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A3.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-gtag.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-gtag)
 
 The Filament package integrates Google Analytics (Gtag) into your Laravel Blade templates, enabling seamless tracking of website visits and user interactions. It simplifies the process of adding analytics to your application, providing valuable insights into your audience and website performance with minimal setup.
