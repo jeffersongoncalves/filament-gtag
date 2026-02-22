@@ -12,7 +12,8 @@ class GtagServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
-        $package->name('filament-gtag');
+        $package->name('filament-gtag')
+            ->hasTranslations();
     }
 
     public function packageRegistered(): void
