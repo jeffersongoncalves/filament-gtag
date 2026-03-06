@@ -9,6 +9,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-gtag.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-gtag)
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-gtag/fix-php-code-style-issues.yml?branch=2.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-gtag/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A2.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-gtag.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-gtag)
+[![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-gtag.svg?style=flat-square)](LICENSE.md)
 
 Filament plugin for managing Google Analytics (Gtag) settings with a Settings Page powered by [spatie/laravel-settings](https://github.com/spatie/laravel-settings). Automatically injects the tracking script into Filament panels.
 
