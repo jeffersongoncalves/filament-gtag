@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Gtag](https://raw.githubusercontent.com/jeffersongoncalves/filament-gtag/2.x/art/jeffersongoncalves-filament-gtag.png)
+![Filament Gtag](https://raw.githubusercontent.com/jeffersongoncalves/filament-gtag/2.x/art/jeffersongoncalves-filament-gtag.jpg)
 
 </div>
 
