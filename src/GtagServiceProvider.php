@@ -2,22 +2,20 @@
 
 namespace JeffersonGoncalves\Filament\Gtag;
 
-use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
-use Illuminate\Contracts\View\View;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsServiceProvider;
 
-class GtagServiceProvider extends PackageServiceProvider
+class GtagServiceProvider extends AbstractAnalyticsServiceProvider
 {
-    public function configurePackage(Package $package): void
+    protected function packageName(): string
     {
-        $package->name('filament-gtag')
-            ->hasTranslations();
+        return 'filament-gtag';
     }
 
-    public function packageRegistered(): void
+    protected function renderHooks(): array
     {
-        FilamentView::registerRenderHook(PanelsRenderHook::HEAD_START, fn (): View => view('gtag::script'));
+        return [
+            PanelsRenderHook::HEAD_START => 'gtag::script',
+        ];
     }
 }
