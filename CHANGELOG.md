@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2.2.0 - 2026-06-23
+
+Refactor onto filament-analytics-core base classes; drop redundant dependencies (provided transitively via the cores).
+
 ## v2.1.1 - 2026-03-04
 
 ### Breaking Changes
@@ -32,6 +36,7 @@ use JeffersonGoncalves\Filament\Gtag\GtagPlugin;
 $panel->plugins([
     GtagPlugin::make(),
 ]);
+
 
 
 ```
