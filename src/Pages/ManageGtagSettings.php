@@ -8,6 +8,7 @@ use Filament\Forms\Components\Toggle;
 use Filament\Pages\SettingsPage;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Schema;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsPlugin;
 use JeffersonGoncalves\Gtag\Settings\GtagSettings;
 
 class ManageGtagSettings extends SettingsPage
@@ -23,7 +24,7 @@ class ManageGtagSettings extends SettingsPage
 
     public static function getNavigationGroup(): string|\UnitEnum|null
     {
-        return __('filament-gtag::pages.navigation_group');
+        return AbstractAnalyticsPlugin::navigationGroupFor('filament-gtag') ?? __('filament-gtag::pages.navigation_group');
     }
 
     public function getTitle(): string
