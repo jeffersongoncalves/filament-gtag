@@ -70,6 +70,15 @@ GtagPlugin::make()
     ->settingsPage(false),
 ```
 
+### Navigation group
+
+Put the settings page in one of your panel's own navigation groups (a string or a closure):
+
+```php
+GtagPlugin::make()
+    ->navigationGroup(fn (): string => __('admin.navigation.settings')),
+```
+
 ## Testing
 
 ```bash
