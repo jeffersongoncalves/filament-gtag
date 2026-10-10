@@ -4,9 +4,9 @@ use Filament\Facades\Filament;
 use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
 use Illuminate\Foundation\Auth\User;
-use JeffersonGoncalves\Gtag\Settings\GtagSettings;
 use JeffersonGoncalves\Filament\Gtag\GtagPlugin;
 use JeffersonGoncalves\Filament\Gtag\Pages\ManageGtagSettings;
+use JeffersonGoncalves\Gtag\Settings\GtagSettings;
 use Livewire\Livewire;
 
 beforeEach(function () {
